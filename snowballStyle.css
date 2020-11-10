@@ -107,7 +107,7 @@ section{
     scroll-snap-align: start;
 
 }
-#home, #about{
+#home, #video, #contact{
     justify-content: center;
     align-content: center;
 
