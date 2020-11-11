@@ -17,6 +17,7 @@ body{
     background-color: #1d1e22;
 }
 
+
 .smooth{
     position: relative;
     width: 100%;
@@ -41,12 +42,8 @@ body{
     align-items: center;
     text-align: center;
     background-color: black;
-}
-.navbar-links{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    text-align: center;
+    
+
 
 }
 li{
@@ -99,6 +96,44 @@ h1 {
     background-color: white;
 
 }
+.imgbar{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./alternative-21581_1920.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+}
+.imgbar2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./windmill-2066444_1920.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.imgbar3{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./wind-turbines-4723817_1280.png");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.imgbar4{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./power-station-4139902_1280.png");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+   
+}
+.bilde{
+    padding:80px
+}
+.energy{
+    padding: 80px;
+}
+
 section{
     position: relative;
     display: flex;
@@ -110,15 +145,8 @@ section{
     font-size: 1rem;
     background-size: cover;
     scroll-snap-align: start;
-    background-color: black;
-    color: white;
-}
-
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
-}
-
+    padding: 0 0px;
+    
 
 
 .toggle-button {
