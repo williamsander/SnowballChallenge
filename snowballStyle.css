@@ -41,7 +41,12 @@ body{
     align-items: center;
     text-align: center;
     background-color: black;
-
+}
+.navbar-links{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
 
 }
 li{
