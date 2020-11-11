@@ -110,6 +110,7 @@ h1 {
     padding: 10em 0;
     background-size: cover;
     background-position: bottom;
+    
 }
 .imgbar3{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
@@ -117,6 +118,7 @@ h1 {
     padding: 10em 0;
     background-size: cover;
     background-position: bottom;
+    
 }
 .imgbar4{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
@@ -124,14 +126,15 @@ h1 {
     padding: 10em 0;
     background-size: cover;
     background-position: bottom;
+   
 }
-.imgbar5{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
-    url("./power-station-4139902_1280.png");
-    padding: 10em 0;
-    background-size: cover;
-    background-position: bottom;
+.bilde{
+    padding:80px
 }
+.energy{
+    padding: 80px;
+}
+
 section{
     position: relative;
     display: flex;
