@@ -98,8 +98,36 @@ h1 {
 
 }
 .imgbar{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
     url("./alternative-21581_1920.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+}
+.imgbar2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./windmill-2066444_1920.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+}
+.imgbar3{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./wind-turbines-4723817_1280.png");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+}
+.imgbar4{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./power-station-4139902_1280.png");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+}
+.imgbar5{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./power-station-4139902_1280.png");
     padding: 10em 0;
     background-size: cover;
     background-position: bottom;
@@ -116,7 +144,7 @@ section{
     font-size: 1rem;
     background-size: cover;
     scroll-snap-align: start;
-    padding: 0 60px;
+    padding: 0 0px;
     
 
 }
