@@ -130,10 +130,11 @@ h1 {
    
 }
 .bilde{
-    padding:80px
+    margin: 0 400px;
+    
 }
 .energy{
-    padding: 80px;
+    margin:  0 400px;
 }
 
 section{
