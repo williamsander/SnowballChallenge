@@ -63,19 +63,19 @@ h1 {
     list-style: none;
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: end;
 
 }
 
 .header ul li{
-    margin: 0 1em;
-    padding: 2em;
+    margin: 0 0.3em;
+    padding: 1em;
 
 }
 
 .header ul li a{
-    float: right;
-    /*position: relative;*/
+    
+    position: relative;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
