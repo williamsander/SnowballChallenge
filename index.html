@@ -6,22 +6,27 @@
     <title>Renewable energy </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="snowballStyle.css">
+    <script src="burger.js" defer> </script>
 </head>
 
 <body>
     <div class="smooth">
         <div class="header">
 
-
-            <ul>
-                <li> <a href="#home">home</a> </li>
-                <li> <a href="#video">video</a> </li>
-                <li> <a href="#about">about</a> </li>
-                <li> <a href="#donate">benefits</a> </li>
-                <li> <a href="#contact">contact</a></li>
-
-            </ul>
-
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li>  <a href="#home">home</a> </li>
+                    <li>  <a href="#video">video</a> </li>
+                    <li>  <a href="#about">about</a> </li>
+                    <li>  <a href="#donate">benefits</a> </li>
+                    <li>  <a href="#contact">contact</a></li>
+                </ul>
+            </div>
         </div>
         <div class="imgbar">
             <span class="background-image" role="img" aria-label="about us image"> </span>
@@ -47,11 +52,9 @@
 
 
 
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1kUE0BZtTRc" frameborder="0"
+                    <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/1kUE0BZtTRc" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-
             </div>
             </section>
             <section id="about">
@@ -170,7 +173,7 @@
                         heating/cooling)
                         to
                         100% renewable energy by 2050.
-                        <br>Conclusion: Renewable energy systems are rapidly becoming more efficient and cheaper. Their
+                        <br> <br> <strong> Conclusion: </strong> Renewable energy systems are rapidly becoming more efficient and cheaper. Their
                         share of
                         total energy consumption is increasing. Growth in consumption of coal and oil could end by 2020
                         due
