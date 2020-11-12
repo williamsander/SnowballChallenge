@@ -17,6 +17,7 @@ body{
     background-color: #1d1e22;
 }
 
+
 .smooth{
     position: relative;
     width: 100%;
@@ -38,15 +39,12 @@ body{
     min-height: 60px;
     font-size: 0.7rem;
     mix-blend-mode: luminosity;
+    justify-content: center;
     align-items: center;
     text-align: center;
     background-color: black;
-}
-.navbar-links{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    text-align: center;
+    
+
 
 }
 li{
@@ -100,6 +98,44 @@ h1 {
     background-color: white;
 
 }
+.imgbar{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./alternative-21581_1920.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+}
+.imgbar2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./windmill-2066444_1920.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.imgbar3{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./wind-turbines-4723817_1280.png");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.imgbar4{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),
+    url("./power-station-4139902_1280.png");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: bottom;
+   
+}
+.bilde{
+    padding:80px
+}
+.energy{
+    padding: 80px;
+}
+
 section{
     position: relative;
     display: flex;
@@ -107,37 +143,14 @@ section{
     min-height: 100vh;
     flex-flow: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     font-size: 1rem;
     background-size: cover;
     scroll-snap-align: start;
-    background-color: black;
-    color: white;
-}
+    padding: 0 0px;
+    
 
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
-}
-
-
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
 }
 #home, #video, #contact{
     justify-content: center;
@@ -164,36 +177,8 @@ p {
 
 }
 
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
+ul{
+    display: inline-block;
+    padding-left: 0;
+    text-align: left;
 }
-
