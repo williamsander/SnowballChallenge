@@ -76,7 +76,8 @@ h1 {
 }
 
 .header ul li a{
-    position: relative;
+    float: right;
+    /*position: relative;*/
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
